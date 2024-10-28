@@ -25,7 +25,7 @@ $claims = $stmt->fetchAll(PDO::FETCH_ASSOC);
         body {
             font-family: 'Nunito', sans-serif;
             background-color: #151617; /* Light background for better contrast */
-            background-image:  url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg') ;
+            /* background-image:  url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg') ; */
         }
 
         .navbar {
@@ -51,7 +51,7 @@ $claims = $stmt->fetchAll(PDO::FETCH_ASSOC);
             text-align: left;
             margin-top: 3px;
             margin-bottom: 10px;
-            color: #343a40; /* Darker color for contrast */
+            color: orange; /* Darker color for contrast */
         }
 
         .submit-btn {
@@ -70,7 +70,7 @@ $claims = $stmt->fetchAll(PDO::FETCH_ASSOC);
         }
 
         .bg-image {
-            background-image: url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg');
+            /* background-image: url('https://mdbootstrap.com/img/Photos/new-templates/tables/img2.jpg'); */
             background-size: cover;
             background-position: center;
             height: 100vh; /* Full height for section */
@@ -139,7 +139,7 @@ $claims = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <div class="container" style="padding: 5px;">
         <div>
         <h1 class="header-title">Welcome, <?php echo htmlspecialchars($_SESSION['username']); ?>!</h1>
-        <h2 class="">Your Claims</h2>
+        <h2 class="header-title">Your Claims</h2>
 
         </div>
         >
@@ -149,7 +149,7 @@ $claims = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         <section class="intro">
             <div class="bg-image">
-                <div class="mask d-flex align-items-center h-100" style="background-color: rgba(0, 0, 0, .5);">
+                <div class="mask d-flex align-items-center h-auto" style="">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12">
