@@ -98,7 +98,7 @@ $claims = $adminController->getAllClaims();
 									<!--begin::Menu separator-->
 									<div class="separator my-2"></div>
 									<!--end::Menu separator-->
-									
+
 								</div>
 								<!--end::User account menu-->
 								<!--end::Menu wrapper-->
@@ -198,7 +198,7 @@ $claims = $adminController->getAllClaims();
 									<!--begin::Row-->
 									<div class="row gx-5 gx-xl-10">
 										<div class="container">
-											<h2>All Claims</h2>
+											<h2 class="text-dark">All Claims</h2>
 											<table border="1">
 												<thead>
 													<tr>
@@ -224,7 +224,7 @@ $claims = $adminController->getAllClaims();
 												</tbody>
 											</table>
 										</div>
-										
+
 									</div>
 									<!--end::Row-->
 								</div>

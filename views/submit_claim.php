@@ -138,7 +138,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="container mt-0">
 
-        <h2 class="mb-4 text-center">Submit a Claim</h2>
+        <h2 class="mb-4 text-center text-dark">Submit a Claim</h2>
 
         <form method="POST" enctype="multipart/form-data" id="submitClaimForm" class="shadow p-4 bg-white rounded">
             <p class="text-center mb-5 text-muted">Please provide all the necessary information to process your claim
